@@ -27,7 +27,17 @@ public class Main {
         System.out.println("in ordine: " + a + " " + b + " " + c);
         System.out.println("al contrario: " + c + " " + b + " " + a);
 
+        //Es3
+        System.out.println("Inserisci la lunghezza del primo lato");
+        double latoA = scanner.nextDouble();
+        System.out.println("Inserisci la lunghezza del secondo lato");
+        double latoB = scanner.nextDouble();
+        System.out.println("Inserisci la lunghezza del terzo lato");
+        double latoC = scanner.nextDouble();
 
+        Es3 esercizio3 = new Es3();
+        double areaTriangolo = esercizio3.perimetroTriangolo(latoA, latoB, latoC);
+        System.out.println("L' area del triangolo è: " + areaTriangolo);
 
 
     }
